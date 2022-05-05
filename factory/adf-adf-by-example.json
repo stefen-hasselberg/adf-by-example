@@ -1,0 +1,9 @@
+{
+	"name": "adf-adf-by-example",
+	"location": "australiaeast",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "84d92358-1afe-4893-9334-3d47ce960c32",
+		"tenantId": "d101c0cd-518f-4333-82f5-d268c8ada40f"
+	}
+}
