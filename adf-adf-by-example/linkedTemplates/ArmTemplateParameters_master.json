@@ -5,6 +5,9 @@
 		"factoryName": {
 			"value": "adf-adf-by-example"
 		},
+		"ls_SQL_sql_adf_by_example_connectionString": {
+			"value": ""
+		},
 		"stadfbyexample_connectionString": {
 			"value": ""
 		},

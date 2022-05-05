@@ -7,6 +7,10 @@
 			"metadata": "Data Factory name",
 			"defaultValue": "adf-adf-by-example"
 		},
+		"ls_SQL_sql_adf_by_example_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'ls_SQL_sql_adf_by_example'"
+		},
 		"stadfbyexample_connectionString": {
 			"type": "secureString",
 			"metadata": "Secure string for 'connectionString' of 'stadfbyexample'"
@@ -37,6 +41,9 @@
 				"parameters": {
 					"factoryName": {
 						"value": "[parameters('factoryName')]"
+					},
+					"ls_SQL_sql_adf_by_example_connectionString": {
+						"value": "[parameters('ls_SQL_sql_adf_by_example_connectionString')]"
 					},
 					"stadfbyexample_connectionString": {
 						"value": "[parameters('stadfbyexample_connectionString')]"
