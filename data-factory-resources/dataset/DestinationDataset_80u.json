@@ -1,0 +1,17 @@
+{
+	"name": "DestinationDataset_80u",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "stadfbyexample",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"container": "sample-data"
+			}
+		}
+	}
+}
