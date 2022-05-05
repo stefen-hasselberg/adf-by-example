@@ -1,0 +1,22 @@
+{
+	"name": "SourceDataset_80u",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "stadfbyexample",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "azure-data-factory-by-example-main.zip",
+				"container": "landing"
+			},
+			"compression": {
+				"type": "ZipDeflate",
+				"level": "Optimal"
+			}
+		}
+	}
+}
